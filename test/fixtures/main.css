@@ -1,0 +1,15 @@
+a {
+  color: red;
+}
+
+@media (min-width: 600px) {
+  a {
+    color: blue;
+  }
+}
+
+@media (max-width: 600px) {
+  a {
+    color: green;
+  }
+}
